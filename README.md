@@ -14,7 +14,7 @@ A gym workout tracker for iPhone, built with SwiftUI and SwiftData as a 4-day pr
 ## Requirements
 
 - Xcode 27 or later
-- iOS 27.2 or later (simulator or device)
+- iOS 26.0 or later (simulator or device)
 
 ## Getting started
 

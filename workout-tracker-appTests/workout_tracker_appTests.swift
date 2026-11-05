@@ -121,6 +121,12 @@ struct WorkoutStatsTests {
             days.first { calendar.isDate($0.day, inSameDayAs: wednesday) }
         )
         #expect(wednesdayActivity.trained)
+
+        let friday = date(2026, 11, 6)
+        let fridayActivity = try #require(
+            days.first { calendar.isDate($0.day, inSameDayAs: friday) }
+        )
+        #expect(fridayActivity.isFuture)
     }
 }
 
