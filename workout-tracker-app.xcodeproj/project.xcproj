@@ -21,6 +21,7 @@
         { "path": "<PRODUCTS>/workout-tracker-appTests.xctest", "id": "921EC0C5309C986C00DCF5D6", "type": "wrapper.cfbundle", "index": false },
       ],
     },
+    { "kind": "folder", "path": "Shared", "target-membership": [ "workout-tracker-app" ] },
   ],
   "targets": [
     {
